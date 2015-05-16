@@ -78,6 +78,10 @@ We expose a JavaScript API for our Flash Twitch player that gives flexibility an
             <td>If stream is online, will play the player.</td>
         </tr>
         <tr>
+            <td><code>getVideoTime</code></td>
+            <td>Returns the current video playback position (in seconds)</td>
+        </tr>
+        <tr>
             <td><code>videoSeek</code></td>
             <td>Seeks a video. Parameter is seconds (as a Number)</td>
         </tr>
